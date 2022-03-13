@@ -1,49 +1,53 @@
-# Password Generator Starter Code
-# 03 JavaScript: Password Generator
+## Random Password Generator (Module 3 Challenge)
 
-Create an application that generates a random password based on user-selected criteria. The app runs in the browser and features dynamically updated HTML and CSS powered by your JavaScript code. It has a clean and polished user interface and is responsive, which ensures that it adapts to multiple screen sizes.
+## Installation:
+In order to access the files needed to complete the challenge see: https://github.com/CorySillaots/module-3-challenge and clone either the following HTTPS link or SSH key:
+HTTPS Link: https://github.com/CorySillaots/module-3-challenge.git
+SSH Key: git@github.com:CorySillaots/module-3-challenge.git
+In order to clone the project to a "projects" directory, open your terminal (mac) or gitbash (windows) window and type the following commands into your terminal/gitbash command line:
+1 - mkdir projects
+2 - cd ./projects (You can use the command "pwd" to ensure you are in the correct directory)
+3 - git clone <HTTPS link> OR git clone <SSH Key>
+4 - ls (this will list all of the files now inside of the current directory)
 
-If you are unfamiliar with special characters, take a look at some [examples of special characters on the OWASP Foundation website](https://www.owasp.org/index.php/Password_special_characters).
+Open your coding software, select "open file" and locate the module-3-challenge file in your projects directory OR find the correct file in your directory and "Open With" your coding software.
 
-## User Story
+## Usage
+- The purpose of the password generator is to create a secure passwords using various characters and lengths.
+- The generator must take the user through a series of prompts asking if:
+    - The user would like to use lower case letters.
+    - The user would like to use upper case letters.
+    - The user would like to use numbers. 
+    - The user would like to use special characters.
+    - The user would like their passwords to be between 8 & 128 characters (A list of special characters can be referenced at https://owasp.org/www-community/password-special-characters). 
+- The generated password will be based on the users input and will be displayed on the screen.
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+##
+An image of the mock up can be seen in the main repository of the module 3 challenge titled "Generator Mock Up.png"
 
-## Acceptance Criteria
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+## Collaborators and References
+- Gladiator Robot Project Code
+    University Of Toronto SCS Coding Boot Camp
 
-The following image demonstrates the application functionality:
+- Module 3 in class exercises
+    University of Toronto SCS Coding Boot Camp
 
-![An app window with the label Password Generator, an input field labeled Your Secure Password, and a Generate Password button.](./Assets/03-javascript-homework-demo.png)
+- W3 Schools
+    www.w3schools.com
 
-## Review
+- Stack Overflow
+    https://stackoverflow.com
 
-You are required to submit the following for review:
+- Codecademy
+    www.codecademy.com
 
-* The URL of the deployed application.
+## License
+Copyright 2022, Cory Sillaots
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
