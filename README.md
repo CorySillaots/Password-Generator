@@ -23,7 +23,7 @@ Open your coding software, select "open file" and locate the module-3-challenge 
 - The generated password will be based on the users input and will be displayed on the screen.
 
 ##
-An image of the mock up can be seen in the main repository of the module 3 challenge titled "Generator Mock Up.png"
+An image of the mock up can be seen in the "Develop" folder in the main repository of the module 3 challenge titled "Generator Mock Up.png"
 
 
 ## Collaborators and References
