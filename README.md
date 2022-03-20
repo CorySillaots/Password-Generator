@@ -1,5 +1,6 @@
 ## Random Password Generator (Module 3 Challenge)
 
+Active URL: [PasswordGenerator](https://corysillaots.github.io/Password-Generator/)
 ## Installation:
 In order to access the files needed to complete the challenge see: https://github.com/CorySillaots/module-3-challenge and clone either the following HTTPS link or SSH key:
 HTTPS Link: https://github.com/CorySillaots/module-3-challenge.git
@@ -24,6 +25,8 @@ Open your coding software, select "open file" and locate the module-3-challenge 
 
 ##
 An image of the mock up can be seen in the "Develop" folder in the main repository of the module 3 challenge titled "Generator Mock Up.png"
+
+![image](./Develop/Assets/images/codegeneratormockup.png)
 
 
 ## Collaborators and References
